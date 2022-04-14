@@ -20,6 +20,8 @@
             width: 30px;
             height: 30px;
         }
+         .table-responsive{display:contents !important;
+                            width:100% ;}
     </style>
 </head>
 
@@ -70,14 +72,14 @@
                                                  <script language="javascript">
                                                         function deleteSes(delid)
                                                         {
-                                                          if(confirm("Vous voulez supprimer ce Membre?")){
+                                                          if(confirm("Vous voulez supprimer ce Stagiaire?")){
                                                             window.location.href="supprimerStagiaire.php?id="+delid+" ";
                                                             return true;
                                                           }
                                                         }   
                                                         function updateSes(upid)
                                                         {
-                                                          if(confirm("Vous voulez modifier ce  Membre ?")){
+                                                          if(confirm("Vous voulez modifier ce Stagiaire ?")){
                                                             window.location.href="ModifierStagiaire.php?id="+upid+" ";
                                                             return true;
                                                           }
