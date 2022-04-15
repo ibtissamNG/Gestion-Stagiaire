@@ -72,11 +72,7 @@
                                                             window.location.href="ModifierRespo.php?id="+upid+" ";
                                                             return true;
                                                           }
-                                                        }                                  
-                                                         function AjouterRespo(adid)
-                                                        {
-                                                              window.location.href="AjouterRespo.php?id="+adid+" ";
-                                                        }
+                                                        }                                 
                                                      </script>
                                              </tr>';}
                                              ?>
