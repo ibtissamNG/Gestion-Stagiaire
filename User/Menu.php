@@ -12,8 +12,6 @@
     <link href="../css/font.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/da4d3dfc16.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
     
 </head>
 
@@ -21,7 +19,7 @@
     <div class="dashboard-main-wrapper">    
        <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="AfficherStagiaire.php">Gestion des stagiaires</a>
+                <a class="navbar-brand" href="AfficherSessions.php">Gestion des stagiaires</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,17 +41,17 @@
         <div class="nav-left-sidebar sidebar-dark">
             <div class="menu-list">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="d-xl-none d-lg-none" href="#">Menu</a>
+                    <a class="d-xl-none d-lg-none" href="#">Accueil</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav flex-column">
+                    <ul class="navbar-nav flex-column">
                             <li class="nav-divider">
                             <i class="fa fa-home"></i> Menu
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="#" ><i class="fas fa-user-graduate"></i>Stagiaires <span class="badge badge-success"></span></a>
+                                <a class="nav-link active" href="AfficherStagiaire.php" ><i class="fas fa-user-graduate"></i>Stagiaires <span class="badge badge-success"></span></a>
                                 
                             </li>
                             <li class="nav-item">
@@ -71,10 +69,18 @@
                 </nav>
             </div>
         </div>
+       <!-- ============================================================== -->
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <?php include 'footer.php';?>
+              <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+           <!-- <?php include 'footer.php';?>-->
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+      
             <!-- ============================================================== -->
             <!-- end footer -->
             <!-- ============================================================== -->
@@ -84,3 +90,9 @@
        </body>
  
 </html>
+
+
+
+
+
+
