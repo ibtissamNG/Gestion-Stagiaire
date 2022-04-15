@@ -45,6 +45,14 @@
                                                     <label for="prenom_respo" class="col-form-label">Prenom</label>
                                                     <input id="prenom_respo" name="prenom_respo" type="text" value="'.$ligne->prenom_respo.'" class="form-control" Required>
                                                 </div>
+                                                  <div class="form-group">
+                                                <label for="email_respo" class="col-form-label">Email</label>
+                                                <input id="email_respo" name="email_respo" type="text" value="'.$ligne->email_respo.'" class="form-control" Required>
+                                            </div>
+                                            <div class="form-group">
+                                            <label for="Tel_respo" class="col-form-label">Telephone</label>
+                                            <input id="Tel_respo" name="Tel_respo" type="text" value="'.$ligne->Tel_respo.'" class="form-control" Required>
+                                        </div>
                                                 <div style="text-align: center;">
                                                     <button class="btn btn-outline-success" type="submit" name="submit">Modifier</button>
                                                     <button class="btn btn-outline-danger" type="submit" name="annuler">Annuler</button>   
