@@ -51,7 +51,7 @@
                             <i class="fa fa-home"></i> Menu
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="AfficherStagiaire.php" ><i class="fas fa-user-graduate"></i>Stagiaires <span class="badge badge-success"></span></a>
+                                <a class="nav-link " href="AfficherStagiaire.php" ><i class="fas fa-user-graduate"></i>Stagiaires <span class="badge badge-success"></span></a>
                                 
                             </li>
                             <li class="nav-item">

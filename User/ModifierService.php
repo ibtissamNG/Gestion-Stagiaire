@@ -30,7 +30,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h5 class="card-header">Modifier Service</h5>
+                    <h2 class="card-header">Modifier Service</h2>
                     <div class="card-body">
                         <?php
                         include('../Connexion_database.php');

@@ -39,7 +39,12 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">Services</h5>
+                            <h2 class="card-header">Services</h2>
+                            <form method="post" action="RechercheStagiaire.php" style="margin:20px 0px -20px 300px">
+                                    <input type="text" size="50" name="RechercheS" id="t" placeholder="Rechercher Stagiaire " style="padding: 8px 14px ;border:none; border-radius:20px; background-color:#e7e7ee" >
+                                    <button type="submit" id="p" style="border:none;margin-left:-40px; background-color:#e7e7ee;" ><i class="fa fa-search" style="font-size:15px"></i> </button>   
+                            </form>
+
                             <div><a href="AjouterService.php" id="btn" class="btnAgt"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></a></div> 
                             <div class="card-body">
                                 <div class="table-responsive">
