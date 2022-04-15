@@ -64,7 +64,9 @@
                                   $id=$_GET['id'];
                                   $Nom=$_POST['nom_respo'];
                                   $Prenom=$_POST['prenom_respo'];
-                                 $result = mysqli_query($connexion ,"UPDATE responsable SET nom_respo='$Nom', prenom_respo='$Prenom'  where id_respo=$id");
+                                  $Email=$_POST['email_respo'];
+                                  $Tel=$_POST['Tel_respo'];
+                                  $result = mysqli_query($connexion ,"UPDATE responsable SET nom_respo='$Nom', prenom_respo='$Prenom' email_respo='$Email' , Tel_respo='$Tel'  where id_respo=$id");
                                  {
                                     echo '<script>alert(\'Modification avec succes.....\');</script>';
                                     
