@@ -1,6 +1,6 @@
 <?php
      session_start();  
-    if(!isset($_SESSION['monlogin'])) header('location: ../Anonyme/Login.php');
+    if(!isset($_SESSION['monlogin'])) header('location: ../Anonyme/Login2.php');
 ?>
 <!doctype html>
 <html lang="en">
@@ -81,7 +81,6 @@
                                 $nom=$_POST['nom'];
                                 $prenom=$_POST['prenom'];
                                 $email=$_POST['email'];
-                                $cin=$_POST['cin'];
                                 $tel=$_POST['tel'];
                                 $dateN=$_POST['dateN'];
                                 $filiere=$_POST['filiere'];
@@ -89,20 +88,20 @@
                                 $ecole=$_POST['ecole'];
                                 $cin=$_POST['cin'];
                                 
-                                if ($nom&&$prenom&&$cin)
+                                if ($nom&&$prenom&&$email&&$tel&&$dateN&&$filiere&&$adresse&&$ecole&&$cin)
                                 { 
                                    $sql = "INSERT INTO stagiaire(id_stagiaire,nom,prenom,email,tel,date_naissance,Adresse,Ecole,filiere,cin) values ('','$nom','$prenom','$email','$tel','$dateN','$adresse','$ecole','$filiere','$cin')";
                                     // On envoie la requête
                                    if($res = $connexion->query($sql))
                                    {
                                       echo '<script>alert(\'Ajout avec succes .\');</script>';
-                                      echo "<script>location.href='AfficherSessions.php';</script>";
+                                      echo "<script>location.href='AfficherStagiaire.php';</script>";
                                     }
                                 }
 
                                 }
                                 else if(isset($_POST['annuler'])){
-                                    echo "<script>location.href='AfficherSessions.php';</script>";
+                                    echo "<script>location.href='AfficherStagiaire.php';</script>";
                                 }
 
                             ?>

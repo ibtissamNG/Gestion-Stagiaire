@@ -36,10 +36,14 @@
                                    echo '
                                             <form method="POST" action="ModifierStagiaire.php?id='.$_GET['id'].'">
                                             <div class="form-group">
+                                                 <label for="cin" class="col-form-label"> CIN </label>
+                                                <input id="cin" name="cin" type="text" value="'.$ligne->cin.'" class="form-control" Required>
+                                            </div>
+                                            <div class="form-group">
                                                  <label for="nom" class="col-form-label">Nom</label>
                                                  <input id="nom" name="nom" type="text" value="'.$ligne->nom.'" class="form-control" Required>
-                                             </div>
-                                             <div class="form-group">
+                                            </div>
+                                            <div class="form-group">
                                                  <label for="prenom" class="col-form-label">Prénom</label>
                                                  <input id="prenom" name="prenom" type="text" value="'.$ligne->prenom.'" class="form-control" Required>
                                             </div>
@@ -47,10 +51,7 @@
                                                  <label for="dateN" class="col-form-label"> Date de Naissance </label>
                                                 <input id="dateN" name="dateN" type="date" value="'.$ligne->date_naissance.'" class="form-control" Required>
                                             </div>
-                                            <div class="form-group">
-                                                 <label for="cin" class="col-form-label"> CIN </label>
-                                                 <input id="cin" name="cin" type="text" value="'.$ligne->cin.'" class="form-control" Required>
-                                             </div>
+                                    
                                             <div class="form-group">
                                                  <label for="ecole" class="col-form-label">Université</label>
                                                  <input id="ecole" name="ecole" type="text" value="'.$ligne->Ecole.'" class="form-control" Required>
@@ -66,11 +67,11 @@
                                             <div class="form-group">
                                                  <label for="tel" class="col-form-label"> Téléphone </label>
                                                  <input id="tel" name="tel" type="text" value="'.$ligne->tel.'" class="form-control" Required>
-                                             </div>
+                                            </div>
                                             <div class="form-group">
                                                  <label for="adresse" class="col-form-label"> Adresse </label>
                                                  <input id="adresse" name="adresse" type="text" value="'.$ligne->Adresse.'" class="form-control" Required>
-                                             </div>
+                                            </div>
                                             <div style="text-align: center;">
                                                  <button class="btn btn-outline-success" type="submit" name="submit">Modifier</button>
                                                  <button class="btn btn-outline-danger" type="submit" name="annuler">Annuler</button>   

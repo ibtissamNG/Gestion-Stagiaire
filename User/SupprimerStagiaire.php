@@ -11,6 +11,6 @@ header('Refresh: 0; url=AfficherStagiaire.php');
 else
 {
 echo '<script>alert(\'Une erreur est survenue Veuillez reessayer\');</script>';
-header('Refresh: 0; url=AfficherSessions.php');
+header('Refresh: 0; url=AfficherStagiaire.php');
 }
 ?>

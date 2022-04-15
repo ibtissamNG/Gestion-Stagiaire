@@ -20,8 +20,6 @@
             width: 30px;
             height: 30px;
         }
-         .table-responsive{display:contents !important;
-                            width:100% ;}
     </style>
 </head>
 
@@ -68,18 +66,19 @@
                                              {
                                                 echo '<tr align="center"><td class="class2">'. $ligne->cin.'</td> <td class="class3">'. $ligne->nom.'</td><td class="class2">'. $ligne->prenom.'</td><td class="class2">'. $ligne->date_naissance.'</td>
                                                 <td class="class3">'. $ligne->Ecole.'</td> <td class="class3">'. $ligne->filiere.'</td>  <td class="class3">'. $ligne->email.'</td> <td class="class3">'. $ligne->tel.'</td> <td class="class3">'. $ligne->Adresse.'</td>                                          
-                                                <td><a onclick="deleteSes('. $ligne->id_stagiaire.')"  name="Delete" class="cc1"><i class="fas fa-trash-alt"></i></a>&nbsp&nbsp&nbsp<a onclick="updateSes('.$ligne->id_stagiaire.')"  name="update" class="cc2"><i class="fa fa-pencil"></i></a> </td> 
+                                                <td><a onclick="deleteStag('. $ligne->id_stagiaire.')"  name="Delete" class="cc1"><i class="fas fa-trash-alt"></i></a>
+                                                &nbsp&nbsp&nbsp<a onclick="updateStag('.$ligne->id_stagiaire.')"  name="update" class="cc2"><i class="fa fa-pencil"></i></a> </td> 
                                                  <script language="javascript">
-                                                        function deleteSes(delid)
+                                                        function deleteStag(delid)
                                                         {
-                                                          if(confirm("Vous voulez supprimer ce Stagiaire?")){
-                                                            window.location.href="supprimerStagiaire.php?id="+delid+" ";
+                                                          if(confirm("Voulez vous supprimez ce stagiaire ?")){
+                                                            window.location.href="SupprimerStagiaire.php?id="+delid+" ";
                                                             return true;
                                                           }
                                                         }   
-                                                        function updateSes(upid)
+                                                        function updateStag(upid)
                                                         {
-                                                          if(confirm("Vous voulez modifier ce Stagiaire ?")){
+                                                          if(confirm("Voulez vous modifier ce stagiaire ?")){
                                                             window.location.href="ModifierStagiaire.php?id="+upid+" ";
                                                             return true;
                                                           }
