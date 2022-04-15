@@ -1,6 +1,6 @@
 <?php
      session_start();  
-    if(!isset($_SESSION['monlogin'])) header('location: ../Anonyme/Login2.php');
+    if(!isset($_SESSION['monlogin'])) header('location: ../Anonyme/Login.php');
 ?>
 <!doctype html>
 <html lang="en">
