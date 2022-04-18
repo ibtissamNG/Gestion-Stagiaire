@@ -1,0 +1,46 @@
+body{
+
+	background-image: url("../img/BgIndex1.jpg");
+	 background-size: cover;
+}
+
+
+
+.d1{
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.d1 h1{
+	font-family: sans-serif;
+	font-size: 250%;
+}
+
+.d1 h2{
+	font-family: sans-serif;
+	font-size: 150%;
+}
+
+#btn1{
+	padding: 1rem 3rem;
+	background: #496f8d;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 70%;
+}
+
+#btn1:hover{
+	background: #bec0c1;
+	color: black;
+
+}
+
+#b1{
+ text-decoration: none;
+ color: white;
+
+}
