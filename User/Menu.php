@@ -54,6 +54,10 @@
                                 <a class="nav-link " href="AfficherStagiaire.php" ><i class="fas fa-user-graduate"></i>Stagiaires <span class="badge badge-success"></span></a>
                                 
                             </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="AfficherRespo.php" ><i class="fa fa-address-card" aria-hidden="true"></i>Responsables <span class="badge badge-success"></span></a>
+                                
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="AfficherService.php"><i class="fab fa-servicestack"></i>Services</a>
                                 
@@ -90,6 +94,7 @@
        </body>
  
 </html>
+
 
 
 
