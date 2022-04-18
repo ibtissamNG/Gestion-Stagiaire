@@ -55,7 +55,7 @@
                                 
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="AfficherRespo.php" ><i class="fa fa-address-card" aria-hidden="true"></i>Responsables <span class="badge badge-success"></span></a>
+                                <a class="nav-link " href="AfficherRespo.php" ><i class="fas fa-user-tie"></i>Responsables <span class="badge badge-success"></span></a>
                                 
                             </li>
                             <li class="nav-item">
