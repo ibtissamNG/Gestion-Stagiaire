@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CommuneBerkane</title>
+	<title>Gestion des stagiaires</title>
 	<link rel="stylesheet"  href="CSS/Style_index1.css">
 </head>
 <body>
