@@ -47,7 +47,7 @@
                                             <?php   
                                             include ('../Connexion_database.php');
                                             $prj=$_POST['RecherchePrj'];
-                                            $requete1 = "SELECT id_projet , nom_projet,statut ,r.id_respo ,p.id_respo ,nom_respo , prenom_respo FROM projet p ,responsable r WHERE p.id_respo=r.id_respo and nom_projet like '%".$prj."%'";
+                                            $requete1 = "SELECT id_projet , nom_projet,statut ,r.id_respo ,p.id_respo ,nom_respo , prenom_respo FROM projet p ,responsable r WHERE p.id_respo=r.id_respo and nom_projet like '".$prj."%'";
                                              $resultat1 = mysqli_query($connexion ,$requete1);
                                              while($ligne = mysqli_fetch_object($resultat1))
                                              {
