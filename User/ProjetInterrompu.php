@@ -39,7 +39,7 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h2 class="card-header">Projets</h2>
+                            <h2 class="card-header">Projets Interrompus</h2>
                             <form method="post" action="rechercheProjet.php" style="margin:20px 0px -20px 300px">
                                     <input type="text" size="50" name="RecherchePrj" id="t" placeholder="Rechercher Projet " style="padding: 8px 14px ;border:none; border-radius:20px; background-color:#e7e7ee" >
                                     <button type="submit" id="p" style="border:none;margin-left:-40px; background-color:#e7e7ee;" ><i class="fa fa-search" style="font-size:15px"></i> </button>   
