@@ -30,7 +30,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h5 class="card-header">Ajouter responsable</h5>
+                    <h2 class="card-header">Ajouter responsable</h2>
                     <div class="card-body">
                         <form method="POST" action="AjouterRespo.php" >
                             <div class="form-group">
