@@ -19,6 +19,8 @@
         thead tr th{
             text-align:center
         }
+         .table-responsive{display:contents !important;
+                            width:100% ;}
      
     </style>
 </head>
