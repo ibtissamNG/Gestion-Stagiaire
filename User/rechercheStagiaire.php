@@ -49,7 +49,7 @@
                                             <tr>
                                                 <th>CIN</th>
                                                 <th>Nom</th>
-                                                <th>Prenom</th>
+                                                <th>Prénom</th>
                                                 <th>Date de Naissance</th>
                                                 <th>Université</th>
                                                 <th>Filiére</th>
@@ -62,7 +62,7 @@
                                             <?php   
                                             include ('../Connexion_database.php');
                                             $data=$_POST['RechercheS'];
-                                            $requete1="SELECT distinct s.id_stagiaire, s.cin,s.nom, S.prenom, s.email , s.tel , s.date_naissance ,s.Adresse ,s.Ecole ,s.filiere  FROM stagiaire s where s.cin like '%".$data."%' OR s.nom like '%".$data."%' OR s.prenom like '%".$data."%'";
+                                            $requete1="SELECT distinct s.id_stagiaire, s.cin,s.nom, S.prenom, s.email , s.tel , s.date_naissance ,s.Adresse ,s.Ecole ,s.filiere  FROM stagiaire s where s.cin like '".$data."%' OR s.nom like '".$data."%' OR s.prenom like '".$data."%'";
                                              $resultat1 = mysqli_query($connexion ,$requete1);
                                              while($ligne = mysqli_fetch_object($resultat1))
                                              {
@@ -73,17 +73,17 @@
                                                  <script language="javascript">
                                                         function deleteStag(delid)
                                                         {
-                                                          if(confirm("Voulez vous supprimez ce stagiaire ?")){
+                                                          if(confirm("Vous voulez supprimez ce stagiaire ?")){
                                                             window.location.href="SupprimerStagiaire.php?id="+delid+" ";
                                                             return true;
                                                           }
                                                         }   
                                                         function updateStag(upid)
                                                         {
-                                                          if(confirm("Voulez vous modifier ce stagiaire ?")){
+                                                          
                                                             window.location.href="ModifierStagiaire.php?id="+upid+" ";
                                                             return true;
-                                                          }
+                                                          
                                                         }   
 
                                                       
