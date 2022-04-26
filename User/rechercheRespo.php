@@ -42,14 +42,13 @@
                                                 <th>Prenom</th>
                                                 <th>email</th>
                                                 <th>Telephone</th>
-                                                <th>Modifier</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php   
                                             include ('../Connexion_database.php');
                                             $Nom=$_POST['RechercheNom'];
-                                             $requete1="SELECT id_respo , nom_respo , prenom_respo , email_respo , Tel_respo FROM responsable  where nom_respo like '%".$Nom."%'";
+                                             $requete1="SELECT id_respo , nom_respo , prenom_respo , email_respo , Tel_respo FROM responsable  where nom_respo like '%".$Nom."%' OR prenom_respo like '%".$Nom."%'";
                                              $resultat1 = mysqli_query($connexion ,$requete1);
                                              while($ligne = mysqli_fetch_object($resultat1))
                                              {
