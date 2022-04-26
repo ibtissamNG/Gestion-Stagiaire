@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/da4d3dfc16.js" crossorigin="anonymous"></script>
     <style>
-        img{
-            width: 30px;
-            height: 30px;
+        thead tr th{
+            text-align:center
         }
+     
     </style>
 </head>
 
@@ -34,10 +34,10 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">Listes des responsables</h5>
-                            <form method="post" action="RechercheRespo.php">
-                                    <input type="text" size="50" name="RechercheNom" id="t" placeholder="Rechercher " >
-                                    <button type="submit" id="p"><i class="fa fa-search"></i></button>   
+                            <h2 class="card-header">Responsables</h2>
+                            <form method="post" action="RechercheRespo.php" style="margin:20px 0px -20px 300px">
+                                    <input type="text" size="50" name="RechercheNom" id="t" placeholder="Rechercher Responsable " style="padding: 8px 14px ;border:none; border-radius:20px; background-color:#e7e7ee" >
+                                    <button type="submit" id="p" style="border:none;margin-left:-40px; background-color:#e7e7ee;" ><i class="fa fa-search" style="font-size:15px"></i> </button>   
                             </form>
                             <div><a href="AjouterRespo.php" id="btn" class="btnAgt"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></a></div> 
                             <div class="card-body">
@@ -49,7 +49,6 @@
                                                 <th>Prenom</th>
                                                 <th>email</th>
                                                 <th>Telephone</th>
-                                                <th>Modifier</th> 
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -68,10 +67,9 @@
                                                         }   
                                                         function updateRespo(upid)
                                                         {
-                                                          if(confirm("Vous voulez modifier ce responsable?")){
+                                                          
                                                             window.location.href="ModifierRespo.php?id="+upid+" ";
                                                             return true;
-                                                          }
                                                         }                                 
                                                      </script>
                                              </tr>';}
