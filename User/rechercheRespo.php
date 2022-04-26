@@ -32,7 +32,7 @@
                     
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">Responsable</h5> 
+                            <h2 class="card-header">Responsable</h2> 
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered first">
@@ -40,7 +40,7 @@
                                             <tr>
                                                 <th>Nom</th>
                                                 <th>Prenom</th>
-                                                <th>email</th>
+                                                <th>Email</th>
                                                 <th>Telephone</th>
                                             </tr>
                                         </thead>
