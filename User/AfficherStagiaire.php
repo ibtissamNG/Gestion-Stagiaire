@@ -65,8 +65,9 @@
                                                 echo '<tr align="center"><td class="class2">'. $ligne->cin.'</td> <td class="class3">'. $ligne->nom.'</td><td class="class2">'. $ligne->prenom.'</td><td class="class2">'. $ligne->date_naissance.'</td>
                                                 <td class="class3">'. $ligne->Ecole.'</td> <td class="class3">'. $ligne->filiere.'</td>  <td class="class3">'. $ligne->email.'</td> <td class="class3">'. $ligne->tel.'</td> <td class="class3">'. $ligne->Adresse.'</td>
                                                 <td><a onclick="deleteStag('. $ligne->id_stagiaire.')"  name="Delete" class="cc1"><i class="fas fa-trash-alt"></i></a>
-                                                &nbsp&nbsp&nbsp<a onclick="updateStag('.$ligne->id_stagiaire.')"name="update" class="cc2"><i class="fa fa-pencil"></i></a>   
-                                                &nbsp&nbsp&nbsp<a onclick="viewInfos('.$ligne->id_stagiaire.')"name="view" class="cc3"><i class="fa fa-eye"></i></a>  </td> 
+                                                &nbsp&nbsp&nbsp<a onclick="updateStag('.$ligne->id_stagiaire.')"name="update" class="cc2"><i class="fa fa-pencil"></i></a> </a>
+                                                &nbsp&nbsp&nbsp<a onclick="addProjet('.$ligne->id_stagiaire.')"name="addProjet" class="cc2" title="Ajouter projet"><i class="fa fa-plus-circle"></i></a>   
+                                                &nbsp&nbsp&nbsp<a onclick="viewInfos('.$ligne->id_stagiaire.')"name="view" class="cc3" title="Voir son projet"><i class="fa fa-eye"></i></a>  </td> 
                                                  <script language="javascript">
                                                         function deleteStag(delid)
                                                         {
@@ -82,14 +83,16 @@
                                                             return true;
                                                           
                                                         }   
-
                                                         function viewInfos(upid){
-                                                            window.location.href="AfficherProjet.php?id="+upid+" ";
+                                                            window.location.href="ViewProjet.php?id="+upid+" ";
                                                             return true;
                                                           
-
                                                         }
-
+                                                        function addProjet(upid){
+                                                            window.location.href="AjouterProjet.php?id="+upid+" ";
+                                                            return true;
+                                                          
+                                                        }
                                                       
                                                      </script>
                                                      
