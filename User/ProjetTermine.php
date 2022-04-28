@@ -44,7 +44,7 @@
                                     <input type="text" size="50" name="RecherchePrj" id="t" placeholder="Rechercher Projet " style="padding: 8px 14px ;border:none; border-radius:20px; background-color:#e7e7ee" >
                                     <button type="submit" id="p" style="border:none;margin-left:-40px; background-color:#e7e7ee;" ><i class="fa fa-search" style="font-size:15px"></i> </button>   
                             </form>
-                            <div><a href="AjouterProjet.php" id="btn" class="btnAgt"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></a></div> 
+                           <br><br>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered first">
