@@ -33,7 +33,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h5 class="card-header">Ajouter nouveau service</h5>
+                    <h2 class="card-header">Ajouter nouveau service</h2>
                     <div class="card-body">
                         <form method="POST" action="AjouterService.php" >
                              <div class="form-group">
