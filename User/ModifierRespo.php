@@ -42,7 +42,7 @@
                                                     <input id="nom_respo" name="nom_respo" type="text" value="'.$ligne->nom_respo.'" class="form-control" Required>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="prenom_respo" class="col-form-label">Prenom</label>
+                                                    <label for="prenom_respo" class="col-form-label">Prénom</label>
                                                     <input id="prenom_respo" name="prenom_respo" type="text" value="'.$ligne->prenom_respo.'" class="form-control" Required>
                                                 </div>
                                                   <div class="form-group">
@@ -68,7 +68,7 @@
                                   $Tel=$_POST['Tel_respo'];
                                   $result = mysqli_query($connexion ,"UPDATE responsable SET nom_respo='$Nom', prenom_respo='$Prenom' email_respo='$Email' , Tel_respo='$Tel'  where id_respo=$id");
                                  {
-                                    echo '<script>alert(\'Modification avec succes.....\');</script>';
+                                    echo '<script>alert(\'Modification avec succès !\');</script>';
                                     
                                     echo "<script>location.href='AfficherRespo.php';</script>";
                                     
