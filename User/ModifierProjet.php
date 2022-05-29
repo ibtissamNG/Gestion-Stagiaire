@@ -50,13 +50,13 @@
                                                     <label for="statut" class="col-form-label">Statut </label>
                                                     <select name="typeP" class="form-control">
                                                         <option> En cours</option>
-                                                        <option> interrompu</option>
+                                                        <option> Interrompu</option>
                                                         <option> Terminé</option>
                                                     </select><br>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label for="respo" class="col-form-label">Responsable:</label>
+                                                    <label for="respo" class="col-form-label">Responsable</label>
                                                     <select name="respo" class="form-control">';?>    
                                                     <?php 
                                                             include ('../Connexion_database.php');
@@ -72,7 +72,7 @@
                                             <? php
                                             echo'
                                             <div class="form-group">
-                                                <label for="Service" class="col-form-label">Service:</label>
+                                                <label for="Service" class="col-form-label">Service</label>
                                                 <select name="Service" class="form-control"> ';   ?> 
                                                 <?php 
                                                     include ('../Connexion_database.php');
