@@ -33,7 +33,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h2 class="card-header">Ajouter nouveau projet</h2>
+                    <h2 class="card-header">Ajouter un projet</h2>
                     <div class="card-body">
                         <?php
                        echo ' <form method="POST" action="AjouterProjet.php?id='.$_GET['id'].'" >
@@ -53,7 +53,7 @@
                             
 
                             <div class="form-group">
-                                <label for="respo" class="col-form-label">Responsable:</label>
+                                <label for="respo" class="col-form-label">Responsable</label>
                                 <select name="respo" class="form-control">   ';?>   
                                 <?php 
                                     include ('../Connexion_database.php');
@@ -69,7 +69,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="Service" class="col-form-label">Service:</label>
+                                <label for="Service" class="col-form-label">Service</label>
                                 <select name="Service" class="form-control">      
                                 <?php 
                                     include ('../Connexion_database.php');
@@ -127,12 +127,12 @@
                                         $requete ="INSERT INTO detail_stage (id_stage,id_stagiaire , id_projet) values ('','$stagiaire','$projet')";
                                         if ($result=$connexion->query($requete))
                                         {
-                                             echo '<script>alert(\' Ajout avec succes.\');</script>';
+                                             echo '<script>alert(\' Ajouté avec succès.\');</script>';
                                           echo "<script>location.href='AfficherStagiaire.php';</script>";
                                         }
                                         else
                                        {
-                                          echo '<script>alert(\'Erreur! Veuillez réessayer );</script>'; 
+                                          echo '<script>alert(\'Erreur! Veuillez ressayer );</script>'; 
                                           echo "<script>location.href='AfficherStagiaire.php';</script>";
                                        }
                                      }
