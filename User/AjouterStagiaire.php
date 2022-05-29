@@ -59,7 +59,7 @@
                             <input id="email" name="email" type="text" class="form-control" Required>
                         </div>
                         <div class="form-group">
-                            <label for="tel" class="col-form-label"> Téléphone </label>
+                            <label for="tel" class="col-form-label"> Telephone </label>
                             <input id="tel" name="tel" type="text"  class="form-control" Required>
                         </div>
                         <div class="form-group">
