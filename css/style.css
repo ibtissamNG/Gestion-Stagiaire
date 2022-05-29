@@ -161,7 +161,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     color: #71748d;
-    background-color: #96969a;
+    background-color: #efeff6;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -270,6 +270,9 @@ label {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(214, 214, 255, .75);
 }
+
+
+
 
 input[type=file] {
     color: #71748d;
@@ -1241,7 +1244,7 @@ Top Header
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #264669 !important;
+    color: #242057 !important;
 }
 .navbar-brand:hover{
     color: #007bff;
