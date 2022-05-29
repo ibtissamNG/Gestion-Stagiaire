@@ -21,7 +21,7 @@ ob_start();
     font-weight: normal;
     font-size: 14px;
     color: #71748d;
-    background-image: url("../img/landing.jpg");
+    background-image: url("../img/workspace.png");
     -webkit-font-smoothing: antialiased;
     height: 100%;
     background-position: center;
