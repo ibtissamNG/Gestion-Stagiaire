@@ -93,7 +93,7 @@
                                   
                                   $result = mysqli_query($connexion ,"UPDATE stagiaire SET nom='$nom', prenom='$prenom', email='$email' ,tel='$tel',date_naissance='$dateN',cin='$cin', filiere='$filiere',adresse='$adresse',ecole='$ecole' where id_stagiaire=$id");
                                  {
-                                    echo '<script>alert(\'Modification avec succes.\');</script>';
+                                    echo '<script>alert(\'Modification avec succès !\');</script>';
                                     
                                     echo "<script>location.href='AfficherStagiaire.php';</script>";
                                     
