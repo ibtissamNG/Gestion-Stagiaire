@@ -33,7 +33,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h2 class="card-header">Ajouter nouveau service</h2>
+                    <h2 class="card-header">Ajouter service</h2>
                     <div class="card-body">
                         <form method="POST" action="AjouterService.php" >
                              <div class="form-group">
@@ -41,7 +41,7 @@
                                 <input id="intituleService"  name="nomService" type="text" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="typeService" class="col-form-label">type Service :</label>
+                                <label for="typeService" class="col-form-label">Type Service</label>
                                 <select name="typeS" class="form-control">
                                       <option> interne</option>
                                       <option> externe</option>
