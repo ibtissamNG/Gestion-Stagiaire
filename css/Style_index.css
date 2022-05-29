@@ -8,7 +8,7 @@ h2 {
   font-size: 30px;
 }
 .image {
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/workspace.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,6 @@ h2 {
     font-weight: bold;
 }
 #b1{
-	font-family:Arial, Helvetica, sans-serif;
 	 text-decoration: none;
 	 color: white;
 	}
