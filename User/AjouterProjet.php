@@ -33,7 +33,7 @@
             <div class="container-fluid  dashboard-content">
                 
                 <div class="card">
-                    <h2 class="card-header">Ajouter un projet</h2>
+                    <h2 class="card-header">Ajouter projet</h2>
                     <div class="card-body">
                         <?php
                        echo ' <form method="POST" action="AjouterProjet.php?id='.$_GET['id'].'" >
