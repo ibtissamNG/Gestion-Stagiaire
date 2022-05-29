@@ -38,7 +38,7 @@
                                 <input id="nom_respo"  name="nom_respo" type="text"  placeholder="Nom" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="prenom_respo" class="col-form-label">Prenom</label>
+                                <label for="prenom_respo" class="col-form-label">Prénom</label>
                                 <input id="prenom_respo"  name="prenom_respo" type="text" placeholder="Prenom" class="form-control" required>
                             </div>
                             <div class="form-group">
