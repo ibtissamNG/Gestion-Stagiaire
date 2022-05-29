@@ -9,7 +9,7 @@ header('Refresh: 0; url=AfficherService.php');
 }
 else
 {
-echo '<script>alert(\'Une erreur est survenue Veuillez ressayer\');</script>';
+echo '<script>alert(\'Une erreur est survenue !! Veuillez ressayer\');</script>';
 header('Refresh: 0; url=AfficherService.php');
 }
 ?>
